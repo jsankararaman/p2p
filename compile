@@ -1,0 +1,2 @@
+gcc -o p2pd p2p_main.c net/server_helper.c net/client_helper.c infrastructure/p2pd.c common.c bootstrap/bootstrap.c routing/routing.c infrastructure/inf_api.c -lpthread -lm dir_list.c search.c 
+
